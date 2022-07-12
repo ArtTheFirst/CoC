@@ -1,0 +1,38 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="My" GeneratedClassName="MySettings" UseMySettingsClassName="true">
+  <Profiles />
+  <Settings>
+    <Setting Name="__PrinterToUse" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="LicenseDate" Type="System.DateTime" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="LicenseDaysCount" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="ExpectedLicenseEndDate" Type="System.DateTime" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="dateSync" Type="System.DateTime" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="__PrinterToUse_Purchase" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="l_Style" Type="MetroFramework.MetroColorStyle" Scope="User">
+      <Value Profile="(Default)">Teal</Value>
+    </Setting>
+    <Setting Name="l_Theme" Type="MetroFramework.MetroThemeStyle" Scope="User">
+      <Value Profile="(Default)">Light</Value>
+    </Setting>
+    <Setting Name="clCrDataConnectionString" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Provider=Microsoft.Jet.OLEDB.4.0;Data Source=|DataDirectory|\clCrData.mdb;Jet OLEDB:Database Password=47T3r@byt3s&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.OleDb&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Provider=Microsoft.Jet.OLEDB.4.0;Data Source=|DataDirectory|\clCrData.mdb;Jet OLEDB:Database Password=47T3r@byt3s</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

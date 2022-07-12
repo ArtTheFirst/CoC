@@ -1,0 +1,12 @@
+'//make sure db exists
+SELECT * from pg_database where datname = 'mydatabasename'
+
+'//disallow new connections
+UPDATE pg_database SET allowconn = 'false' WHERE datname = 'mydatabasename';
+ALTER DATABASE databasename CONNECTION LIMIT 1;
+
+'//terminate existing connections
+SELECT pg_terminate_backend(pid) FROM pg_stat_activity WHERE datname ='mydatabasename';
+
+'//drop database
+DROP DATABASE databasename

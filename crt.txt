@@ -1,0 +1,16 @@
+With dt
+.Columns.Add("ID")
+.Columns.Add("Name")
+.Columns.Add("Address")
+.Columns.Add("Contact Number")
+End With
+For Each dgr As DataGridViewRow In Me.DataGridView1.Rows
+dt.Rows.Add(dgr.Cells(0).Value, dgr.Cells(1).Value, dgr.Cells(2).Value, dgr.Cells(3).Value)
+Next
+ 
+Dim reportDocument As CrystalDecisions.CrystalReports.Engine.ReportDocument
+reportDocument = New CrystalReport1
+reportDocument.SetDataSource(dt)
+Form2.CrystalReportViewer1.ReportSource = reportDocument
+Form2.ShowDialog()
+Form2.Dispose()

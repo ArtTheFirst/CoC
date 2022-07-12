@@ -1,0 +1,52 @@
+Enter the following command: postgresql-12.0-1-windows-x64.exe --mode unattended --unattendedmodeui none
+
+Press Enter
+
+After several minutes you should see the PostgreSQL shortcuts in the Start Menu, Installation Directory, and Programs and Features in the Control Panel.
+
+Software Title:PostgreSQL 12Vendor:PostgreSQL Global Development GroupVersion:12Architecture:x64Installer Type:EXESilent Install Switch:postgresql-12.0-1-windows-x64.exe --mode unattended --unattendedmodeui noneSilent Uninstall Switch:"%ProgramFiles%\PostgreSQL\12\uninstall-postgresql.exe" --mode unattended --unattendedmodeui noneDownload Link:https://www.enterprisedb.com/downloads/postgres-postgresql-downloads
+
+The information above provides a quick overview of the software title, vendor, silent install, and silent uninstall switches. The download links provided take you directly to the vendors website. Continue reading if you are interested in additional details and configurations.
+
+Additional Configurations
+
+Available Command Line Parameters
+
+--unattendedmodeui <unattendedmodeui>Unattended Mode UI
+Default: minimal
+Allowed: none minimal minimalWithDialogs--optionfile <optionfile>Installation option file
+Default:--debuglevel <debuglevel>Debug information level of verbosity
+Default: 2
+Allowed: 0 1 2 3 4--mode <mode>Installation mode
+Default: qt
+Allowed: qt win32 unattended--debugtrace <debugtrace>Debug filename
+Default:--enable-components <enable-components>Comma-separated list of components
+Default: server,pgAdmin,stackbuilder,commandlinetools
+Allowed: server pgAdmin stackbuilder commandlinetools--disable-components <disable-components>Comma-separated list of components
+Default:
+Allowed: server pgAdmin stackbuilder commandlinetools--installer-language <installer-language>Language selection
+Default: en
+Allowed: en es fr--extract-only <extract-only>Default: 0--superaccount <superaccount>Sets the user name of the database superuser. Defaults to ‘postgres’.
+Default: postgres--servicename <servicename>Sets the name of the database service.
+Default:--serviceaccount <serviceaccount>Sets the operating system user account that owns the server process. Defaults to ‘postgres’.
+Default:--servicepassword <servicepassword>Sets the password for the operating system user account that owns server process. Defaults to superuser password.
+Default:--install_runtimes <install_runtimes>Specifies whether or not install the Microsoft Visual C++ runtimes before the installation proceeds.
+Default: 1--enable_acledit <enable_acledit>Check and give the read permissions on the complete data directory path for the service account.
+Default: 0--create_shortcuts <create_shortcuts>Specifies whether or not menu shortcuts should be created.
+Default: 1--prefix <prefix>Installation Directory
+Default: C:\Program Files\PostgreSQL\12--datadir <datadir>Data Directory
+Default: C:\Program Files\PostgreSQL\12\data--superpassword <superpassword>Password
+Default:--serverport <serverport>Port
+Default: 5432--locale <locale>Locale
+Default:
+
+How to Uninstall PostgreSQL Silently
+
+Open an Elevated Command Prompt by Right-Clicking on Command Prompt and select Run as Administrator
+
+Enter the following command for PostgreSQL 12:
+
+"%ProgramFiles%\PostgreSQL\12\uninstall-postgresql.exe" --mode unattended --unattendedmodeui none
+
+Always make sure to test everything in a development environment prior to implementing anything into production. The information in this article is provided “As Is” without warranty of any kind.
+

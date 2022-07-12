@@ -1,0 +1,123 @@
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+Partial Class Cashier
+    Inherits System.Windows.Forms.Form
+
+    'Form overrides dispose to clean up the component list.
+    <System.Diagnostics.DebuggerNonUserCode()> _
+    Protected Overrides Sub Dispose(ByVal disposing As Boolean)
+        Try
+            If disposing AndAlso components IsNot Nothing Then
+                components.Dispose()
+            End If
+        Finally
+            MyBase.Dispose(disposing)
+        End Try
+    End Sub
+
+    'Required by the Windows Form Designer
+    Private components As System.ComponentModel.IContainer
+
+    'NOTE: The following procedure is required by the Windows Form Designer
+    'It can be modified using the Windows Form Designer.  
+    'Do not modify it using the code editor.
+    <System.Diagnostics.DebuggerStepThrough()> _
+    Private Sub InitializeComponent()
+        Me.Panel2 = New System.Windows.Forms.Panel()
+        Me.l_usr = New System.Windows.Forms.Label()
+        Me.TheTime = New System.Windows.Forms.Label()
+        Me.sidepnl = New System.Windows.Forms.Panel()
+        Me.l_StockDetails = New System.Windows.Forms.Label()
+        Me.l_Price = New System.Windows.Forms.Label()
+        Me.btnProceed = New System.Windows.Forms.Label()
+        Me.btnLogout = New System.Windows.Forms.Label()
+        Me.l_PriceFinal = New System.Windows.Forms.Label()
+        Me.btnNewOrder = New System.Windows.Forms.Label()
+        Me.l_ProductCode = New System.Windows.Forms.Label()
+        Me.l_ProductName = New System.Windows.Forms.Label()
+        Me.Label12 = New System.Windows.Forms.Label()
+        Me.Label13 = New System.Windows.Forms.Label()
+        Me.t_Discount = New System.Windows.Forms.TextBox()
+        Me.Label10 = New System.Windows.Forms.Label()
+        Me.Label11 = New System.Windows.Forms.Label()
+        Me.t_Qty = New System.Windows.Forms.TextBox()
+        Me.btnAdvancedSearch = New System.Windows.Forms.Label()
+        Me.Label8 = New System.Windows.Forms.Label()
+        Me.Label9 = New System.Windows.Forms.Label()
+        Me.t_Barcode = New System.Windows.Forms.TextBox()
+        Me.Panel2.SuspendLayout()
+        Me.sidepnl.SuspendLayout()
+        Me.SuspendLayout()
+        '
+        'Panel2
+        '
+        Me.Panel2.BackColor = System.Drawing.Color.DodgerBlue
+        Me.Panel2.Controls.Add(Me.l_usr)
+        Me.Panel2.Controls.Add(Me.TheTime)
+        Me.Panel2.Dock = System.Windows.Forms.DockStyle.Top
+        Me.Panel2.Location = New System.Drawing.Point(0, 0)
+        Me.Panel2.Name = "Panel2"
+        Me.Panel2.Size = New System.Drawing.Size(784, 42)
+        Me.Panel2.TabIndex = 48
+        '
+        'l_usr
+        '
+        Me.l_usr.AutoSize = True
+        Me.l_usr.BackColor = System.Drawing.Color.Transparent
+        Me.l_usr.Cursor = System.Windows.Forms.Cursors.Arrow
+        Me.l_usr.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.l_usr.Font = New System.Drawing.Font("Corbel", 12.5!)
+        Me.l_usr.ForeColor = System.Drawing.Color.White
+        Me.l_usr.Location = New System.Drawing.Point(9, 10)
+        Me.l_usr.Name = "l_usr"
+        Me.l_usr.Size = New System.Drawing.Size(64, 21)
+        Me.l_usr.TabIndex = 52
+        Me.l_usr.Tag = "cashier;"
+        Me.l_usr.Text = "cashier;"
+        Me.l_usr.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        '
+        'TheTime
+        '
+        Me.TheTime.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.TheTime.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.TheTime.Font = New System.Drawing.Font("Corbel", 24.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.World)
+        Me.TheTime.ForeColor = System.Drawing.Color.White
+        Me.TheTime.Location = New System.Drawing.Point(527, 6)
+        Me.TheTime.Name = "TheTime"
+        Me.TheTime.Size = New System.Drawing.Size(245, 29)
+        Me.TheTime.TabIndex = 4
+        Me.TheTime.Text = "05/12/17; 20:43"
+        Me.TheTime.TextAlign = System.Drawing.ContentAlignment.TopRight
+        '
+        'sidepnl
+        '
+        Me.sidepnl.BackColor = System.Drawing.Color.Silver
+        Me.sidepnl.Controls.Add(Me.l_StockDetails)
+        Me.sidepnl.Controls.Add(Me.l_Price)
+        Me.sidepnl.Controls.Add(Me.btnProceed)
+        Me.sidepnl.Controls.Add(Me.btnLogout)
+        Me.sidepnl.Controls.Add(Me.l_PriceFinal)
+        Me.sidepnl.Controls.Add(Me.btnNewOrder)
+        Me.sidepnl.Controls.Add(Me.l_ProductCode)
+        Me.sidepnl.Controls.Add(Me.l_ProductName)
+        Me.sidepnl.Controls.Add(Me.Label12)
+        Me.sidepnl.Controls.Add(Me.Label13)
+        Me.sidepnl.Controls.Add(Me.t_Discount)
+        Me.sidepnl.Controls.Add(Me.Label10)
+        Me.sidepnl.Controls.Add(Me.Label11)
+        Me.sidepnl.Controls.Add(Me.t_Qty)
+        Me.sidepnl.Controls.Add(Me.btnAdvancedSearch)
+        Me.sidepnl.Controls.Add(Me.Label8)
+        Me.sidepnl.Controls.Add(Me.Label9)
+        Me.sidepnl.Controls.Add(Me.t_Barcode)
+        Me.sidepnl.Dock = System.Windows.Forms.DockStyle.Right
+        Me.sidepnl.Location = New System.Drawing.Point(514, 42)
+        Me.sidepnl.Name = "sidepnl"
+        Me.sidepnl.Size = New System.Drawing.Size(270, 399)
+        Me.sidepnl.TabIndex = 49
+        '
+        'l_StockDetails
+        '
+        Me.l_StockDetails.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.l_StockDetails.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.l_StockDetails.Font = New System.Drawing.Font("Corbel", 10.0!)
+        Me.l_StockDetails.ForeColor = System.Drawing
